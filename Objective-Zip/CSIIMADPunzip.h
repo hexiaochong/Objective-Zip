@@ -53,9 +53,8 @@ extern "C" {
 #include "zlib.h"
 #endif
 
-#ifndef TUOGEYYY
+#ifndef _ZLIBIOAPI_H
 #include "ioapi.h"
-
 #endif
 
 #if defined(STRICTUNZIP) || defined(STRICTZIPUNZIP)

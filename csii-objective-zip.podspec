@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.name         = "objective-zip"
+  s.name         = "csii-objective-zip"
   s.version      = "1.0.5"
   s.summary      = "An object-oriented friendly wrapper library for ZLib and MiniZip, in Objective-C for iOS and OS X"
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                    Objective-Zip includes sources of latest versions of ZLib and MiniZip.
                    DESC
 
-  s.homepage     = "https://github.com/gianlucabertani/Objective-Zip"
+  s.homepage     = "https://github.com/hexiaochong/Objective-Zip"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source       = { :git => "https://github.com/gianlucabertani/Objective-Zip.git",
+  s.source       = { :git => "https://github.com/hexiaochong/Objective-Zip.git",
                      :tag => s.version.to_s }
 
 
@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
                            "Objective-Zip/OZZipWriteStream+NSError.h", "Objective-Zip/OZZipReadStream.h",
                            "Objective-Zip/OZZipReadStream+Standard.h", "Objective-Zip/OZZipReadStream+NSError.h",
                            "Objective-Zip/OZFileInZipInfo.h", "Objective-Zip/Objective-Zip.h", "Objective-Zip/Objective-Zip+NSError.h",
-                           "Objective-Zip/NSDate+DOSDate.h", "Objective-Zip/NSData+CRC32.h"]
+                           "Objective-Zip/NSDate+DOSDate.h", "Objective-Zip/NSData+CRC32.h","Objective-Zip/CSIIMADPunzip.h"]
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
