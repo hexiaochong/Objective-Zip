@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77CD943F1FD851F5005CF46D /* CSIIMADPunzip.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CD943D1FD851F4005CF46D /* CSIIMADPunzip.m */; };
 		8C33B2C11EC6F0CD00F49381 /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C33B2C01EC6F0CD00F49381 /* crypt.c */; };
 		8C33B2C21EC6F0DA00F49381 /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C33B2C01EC6F0CD00F49381 /* crypt.c */; };
 		8C33B2C51EC6F9AD00F49381 /* NSDate+DOSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C33B2C41EC6F9AD00F49381 /* NSDate+DOSDate.m */; };
@@ -138,6 +139,8 @@
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77CD943D1FD851F4005CF46D /* CSIIMADPunzip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSIIMADPunzip.m; sourceTree = "<group>"; };
+		77CD943E1FD851F4005CF46D /* CSIIMADPunzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSIIMADPunzip.h; sourceTree = "<group>"; };
 		8C14E8181773A09F00B84597 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8C1D598C1771057D006D69C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		8C33B2C01EC6F0CD00F49381 /* crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt.c; sourceTree = "<group>"; };
@@ -303,6 +306,8 @@
 		8C6D353B10E56BA400B63EFA /* Objective-Zip */ = {
 			isa = PBXGroup;
 			children = (
+				77CD943E1FD851F4005CF46D /* CSIIMADPunzip.h */,
+				77CD943D1FD851F4005CF46D /* CSIIMADPunzip.m */,
 				8C59F3D81BAEE4A100DBB3D0 /* Objective-Zip.h */,
 				8C59F3D91BAEE4A100DBB3D0 /* Objective-Zip+NSError.h */,
 				8C59F3E11BAEE4A100DBB3D0 /* OZZipFile.h */,
@@ -612,6 +617,7 @@
 				8C59F3B71BAEE48600DBB3D0 /* inflate.c in Sources */,
 				8C59F3F81BAEE4A100DBB3D0 /* OZZipException.m in Sources */,
 				8C59F3BA1BAEE48600DBB3D0 /* inftrees.c in Sources */,
+				77CD943F1FD851F5005CF46D /* CSIIMADPunzip.m in Sources */,
 				8C33B2C51EC6F9AD00F49381 /* NSDate+DOSDate.m in Sources */,
 				8C33B2C11EC6F0CD00F49381 /* crypt.c in Sources */,
 				8C59F3D51BAEE49400DBB3D0 /* zip.c in Sources */,
